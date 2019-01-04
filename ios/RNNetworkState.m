@@ -67,22 +67,22 @@
 }
 RCT_EXPORT_MODULE();
 RCT_EXPORT_METHOD(openGeneral) {
-  [self openSetting:[NSURL URLWithString:@"App-prefs:root=General"]];
+  [self openSetting:[NSURL URLWithString:@"App-Prefs:root=General"]];
 }
 RCT_EXPORT_METHOD(openPrivacy) {
-  [self openSetting:[NSURL URLWithString:@"App-prefs:root=Privacy"]];
+  [self openSetting:[NSURL URLWithString:@"App-Prefs:root=Privacy"]];
 }
 RCT_EXPORT_METHOD(openWifi) {
-  [self openSetting:[NSURL URLWithString:@"App-prefs:root=WIFI"]];
+  [self openSetting:[NSURL URLWithString:@"App-Prefs:root=WIFI"]];
 }
 RCT_EXPORT_METHOD(openAirplaneMode) {
-  [self openSetting:[NSURL URLWithString:@"App-prefs:root=AIRPLANE_MODE"]];
+  [self openSetting:[NSURL URLWithString:@"App-Prefs:root=AIRPLANE_MODE"]];
 }
 RCT_EXPORT_METHOD(openLocationSource) {
-  [self openSetting:[NSURL URLWithString:@"App-prefs:root=AIRPLANE_MODE"]];
+  [self openSetting:[NSURL URLWithString:@"App-Prefs:root=AIRPLANE_MODE"]];
 }
 RCT_EXPORT_METHOD(openWireless) {
-  [self openSetting:[NSURL URLWithString:@"App-prefs:root=MOBILE_DATA_SETTINGS_ID"]];
+  [self openSetting:[NSURL URLWithString:@"App-Prefs:root=MOBILE_DATA_SETTINGS_ID"]];
 }
 
 @end
