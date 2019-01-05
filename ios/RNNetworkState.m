@@ -63,4 +63,6 @@
   [self sendEventWithName:@"networkChanged" body:data];
 }
 
+RCT_EXPORT_MODULE();
+
 @end
